@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background: #222;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+canvas {
+  display: block;
+  margin: auto;
+  background: #888;
+  border: 4px solid #fff;
+  
+}
+
+.despcont{
+  display: flex;
+  width: 100%;
+  height: 200px;
+  justify-content: center;
+
+}
+
+.desc{
+
+  width: 400px;
+  height: 200px;
+  display: flex;
+  justify-content: center;;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+}
+
+.title{
+padding: 0px;
+font-size: 1.3rem;
+font-weight: 600;
+}
+
+.smallpara{
+  padding: 20px;
+}
